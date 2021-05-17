@@ -50,6 +50,7 @@ public class OSFileIO {
     }
 
     //测试buffer文件IO
+    // buffer IO方式减少了用户态和内核态的次数，提高了性能
     //  jvm  8kB   syscall  write(8KBbyte[])
 
     public static void testBufferedFileIO() throws Exception {
