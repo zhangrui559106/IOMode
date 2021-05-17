@@ -65,6 +65,7 @@ public class OSFileIO {
 
 
     //测试文件NIO的性能
+    //NIO mmap 性能得到极大提交
     //mmap
 
 
