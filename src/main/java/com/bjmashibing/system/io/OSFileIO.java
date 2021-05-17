@@ -64,7 +64,8 @@ public class OSFileIO {
 
 
 
-    //测试文件NIO
+    //测试文件NIO的性能
+    //mmap
 
 
         public static void testRandomAccessFileWrite() throws  Exception {
