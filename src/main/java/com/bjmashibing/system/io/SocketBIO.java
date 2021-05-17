@@ -10,6 +10,12 @@ import java.net.Socket;
 public class SocketBIO {
 
 
+    /**
+     * 传统BIO方式
+     * @param args
+     * @throws Exception
+     */
+
     public static void main(String[] args) throws Exception {
         ServerSocket server = new ServerSocket(9090,20);
 
